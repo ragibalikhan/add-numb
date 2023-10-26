@@ -1,9 +1,9 @@
-import AddNumbers from '@/Components/AddNumbers'
+import ApiTester from '@/Components/ApiTester'
 
 export default function Home() {
   return (
    <>
-   <AddNumbers/>
+   <ApiTester/>
    </>
   )
 }
