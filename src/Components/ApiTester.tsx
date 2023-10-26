@@ -20,7 +20,7 @@ const ApiTester = () => {
 
   const handleDetection = async () => {
     try {
-      const response = await fetch(`http://127.0.0.1:5000/${detectionType}`, {
+      const response = await fetch(`https://palagrism-and-ai-detection.onrender.com/${detectionType}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
